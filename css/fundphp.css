@@ -1,0 +1,167 @@
+/* row config */
+.row
+{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+#row1 
+{
+    height: 20%;
+}
+
+#row2
+{
+    height: 78%;
+}
+
+#row1 > div
+{
+    width: 32%;
+    text-align: center;
+}
+#row2 > div
+{
+    width: 49%;
+}
+
+/* first row */
+
+h1
+{
+    margin: 0;
+}
+.row > div
+{
+    background-color: #1B2021;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 2%;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 10px;
+}
+div#inside
+{
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+div#inside > p
+{
+    font-size: larger;
+    font-weight: bolder;
+}
+
+/* second row */
+
+#row2 > #col2 > a
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+#row2 > #col1
+{
+    align-items: center;
+    justify-content: center;
+}
+
+#row2 > #col1 , #row2 > #col1 > * 
+{
+    overflow:visible;
+    display: flex;
+
+}
+#row2 > #col2 > a > img
+{
+    height: 90%;
+}
+
+/* third row */
+
+div#tableL > table
+{
+    width: 100%;
+    font-size: 70%;
+    color: #bbb;
+}
+tr  > td
+{
+    border-bottom: 1px solid #bbb;
+    padding: 0.5vh 0;
+}
+tr:last-of-type > td
+{
+    border-bottom: none;
+}
+#row1 > .col > img
+{
+    margin: 0;
+}
+form
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.card
+{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title
+{
+    height: 40%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.title-text , .percent
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.percent
+{
+    width: 50%;
+}
+
+h1 > img
+{
+    height: 90%;
+}
+
+#row1 > #col3 .title
+{
+    display: flex;
+    justify-content: space-between;
+}
+#row1 > #col3 .title > h1.percent
+{
+    justify-content: right;
+}
+

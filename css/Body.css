@@ -1,0 +1,149 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+*
+{
+    font-family: 'Trebuchet MS';
+    overflow: hidden;
+}
+body
+{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+}
+nav
+{
+    width: 15%;
+    background-color: #1B2021;
+}
+main
+{
+    width: 85%;
+    background-color: #1B2021;
+}
+main > header
+{
+    height: 5%;
+    width: 100%;
+    background-color: #1B2021;
+}
+header > a
+{
+    height: 100%;
+    text-decoration: none;
+}
+main > section#container
+{
+    border-radius: 2vh 0 0 0 ;
+    height: 95vh;
+    width: 100%;
+    background-color: #36392F;
+    padding: 2vw;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+h1#panel
+{
+    color: white;
+    height: 5%;
+    font-size: 3vh;
+    padding: 1vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+}
+.nav > p
+{
+    color: #bbb;
+    padding-left: 1vw;
+}
+ol
+{
+    list-style: none;
+    padding: 0;
+    margin-top: 2vh;
+}
+li 
+{ 
+    height: 5vh;
+    width: 95%;
+    margin-right: 5%;
+    margin-bottom: 2vh;
+}
+
+li > a , a > div
+{
+    height: 100%;
+    text-decoration: none;
+    color: #bbb;
+}
+a > div
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    border-radius: 0 2.5vh 2.5vh  0;
+}
+a > div.selected
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: #151819 ;
+    align-items: center;
+    border-radius: 0 2.5vh 2.5vh  0;
+    color: #bbb;
+}
+a > div:hover
+{
+    color: white;
+    font-weight: bold;
+}
+
+div > p
+{
+    margin-left: 1vw;
+}
+div > img
+{
+    height: 70%;
+    margin-left: 1vw;
+    
+}
+
+p#hours
+{
+    margin: 5vh 1vw;
+    text-align: center;
+}
+header , header > a
+{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+a > img
+{
+    margin-right: 1vw;
+}
+a > p
+{
+    margin-right: 1vw;
+    color: #bbb;
+}
+a:hover > p
+{
+    font-weight: bold;
+    color: white;
+}

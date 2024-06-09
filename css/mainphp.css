@@ -1,0 +1,117 @@
+
+/* row config */
+.row
+{
+    height: 31%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+#row1 > div
+{
+    width: 32%;
+}
+#row2 > #col1
+{
+    width: 68%;
+}
+#row2 > #col2
+{
+    width: 30%;
+}
+
+#row3 > div
+{
+    width: 49%;
+}
+
+/* first row */
+
+h1
+{
+    margin: 0;
+}
+.row > div
+{
+    background-color: #1B2021;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 2%;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 10px;
+}
+div#inside
+{
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+div#inside > p
+{
+    font-size: larger;
+    font-weight: bolder;
+}
+
+/* second row */
+
+#row2 > #col2 > a
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+#row2 > #col2 > a > img
+{
+    height: 90%;
+}
+
+/* third row */
+
+#row3 > #col1 > h2
+{
+    margin-top: 0;
+    margin-bottom: 1vh;
+}
+div#tableL > table
+{
+    width: 100%;
+    font-size: 70%;
+    color: #bbb;
+}
+tr  > td
+{
+    border-bottom: 1px solid #bbb;
+    padding: 0.5vh 0;
+}
+tr:last-of-type > td
+{
+    border-bottom: none;
+}
+p.hours
+{
+    font-size: 72px;
+    margin: 0;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p#hours
+{
+
+    background: -webkit-linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    background-clip: text;
+    color: rgba(0, 0, 0, 0);
+}
